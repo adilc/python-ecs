@@ -9,10 +9,6 @@ def hello():
     create_service()
     return "Running the Flask App to create container"
 
-def alb()
-    Auyth0
-
-dynamodb 
 
 
 
