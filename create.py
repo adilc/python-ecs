@@ -10,6 +10,10 @@ def hello():
     return "Running the Flask App to create container"
 
 # noncompliant example
+def read_file_noncompliant(filename):
+    file = open(filename, 'r')
+    # Noncompliant: method returns without properly closing the file.
+    return file.readlines()
 
 
 
